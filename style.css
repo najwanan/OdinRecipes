@@ -7,13 +7,12 @@ body{
     height: 100vh;
     width:auto;
     display: flex;
-    padding:5%;
-    margin:10%;
+    margin:5%;
 }
-
 img{
-
-}
+    border: 5px solid grey;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
 
 h1, h2, p, li{
     font-family: 'Poppins';
@@ -29,12 +28,38 @@ font-size: medium;
 
 p{
 
- font-size: small;
+ font-size: 18px;
 
 }
 
-ul, li{
+a{
     text-decoration: none;
     text-emphasis: none;
+    color: sienna;
 }
+a:hover{
+    color:orange
+}
+
+#leaves{
+    border:none;
+    box-shadow: none;
+    margin: 1rem;
+}
+
+.odinRecipes{
+    font-size: 60px;
+    color: goldenrod;
+}
+
+
+.recipeList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:10%;
+    grid-gap: 5rem;
+}
+
+
+
 
